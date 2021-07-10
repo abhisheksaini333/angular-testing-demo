@@ -29,7 +29,7 @@ describe('AppComponent', () => {
     expect(compiled.querySelector('.content span').textContent).toContain('angular-testing-demo app is running!');
   });
 
-  it('add two numbers', () => {
+  it('addition of two numbers', () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
 
